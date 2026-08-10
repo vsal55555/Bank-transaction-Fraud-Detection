@@ -356,3 +356,10 @@ http://localhost:8080
 **Bishal Shrestha**
 
 Data Engineering Capstone Project
+
+---
+## 🎥 Project Demo
+
+Watch the complete project demo here:
+
+🔗 [https://youtu.be/your-video-link](https://drive.google.com/file/d/1OcVUw0rqakYn-jBi1MRUONSXBK8srKGy/view)
