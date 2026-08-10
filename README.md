@@ -362,4 +362,4 @@ Data Engineering Capstone Project
 
 Watch the complete project demo here:
 
-🔗 [https://youtu.be/your-video-link](https://drive.google.com/file/d/1OcVUw0rqakYn-jBi1MRUONSXBK8srKGy/view)
+🔗 [click me!](https://drive.google.com/file/d/1OcVUw0rqakYn-jBi1MRUONSXBK8srKGy/view)
