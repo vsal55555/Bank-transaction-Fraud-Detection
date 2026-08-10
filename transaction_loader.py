@@ -15,7 +15,7 @@ DB_CONFIG = {
     "port": os.getenv("DB_PORT", "5432"),
     "dbname": os.getenv("DB_NAME", "OLTP_DB"),
     "user": os.getenv("DB_USER", "postgres"),
-    "password": os.getenv("DB_PASSWORD", "thiswillpass")
+    "password": os.getenv("DB_PASSWORD", "#######")
 }
 
 N_TRANSACTIONS = 40
