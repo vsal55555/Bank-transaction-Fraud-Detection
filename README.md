@@ -290,27 +290,15 @@ Email includes:
 
 ### Fraud Summary Dashboard
 Overall fraud monitoring KPIs.
-
-### Fraud Trends Dashboard
 Track fraud activity over time.
-
-### Fraud Locations Dashboard
 Fraud distribution by city.
-
-### Fraud Accounts Dashboard
 Accounts with highest fraud activity.
-
-### Fraud Merchants Dashboard
 Merchants associated with the highest fraud cases.
-
-### Fraud Reasons Dashboard
 Breakdown of fraud triggers.
-
-### High Risk Transactions Dashboard
 Transactions with elevated fraud scores.
-
-### Fraud Heatmap
 Geographic fraud visualization.
+
+
 
 ---
 
