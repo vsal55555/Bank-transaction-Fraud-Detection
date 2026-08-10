@@ -1,23 +1,49 @@
-**Bank Transaction Fraud Detection **
+# 🏦 Bank Transaction Fraud Detection
 
-Overview 
+## Overview
 
-Bank Transaction Fraud Detection is an end-to-end Data Engineering project that ingests banking transaction data from an OLTP database, applies fraud detection rules during transformation, loads curated data into a PostgreSQL Data Warehouse, orchestrates ETL workflows using Apache Airflow, sends automated fraud alerts via email, and visualizes fraud insights through Streamlit dashboards. 
+Bank Transaction Fraud Detection is an end-to-end Data Engineering project that ingests banking transaction data from an OLTP database, applies fraud detection rules during transformation, loads curated data into a PostgreSQL Data Warehouse, orchestrates ETL workflows using Apache Airflow, sends automated fraud alerts via email, and visualizes fraud insights through Streamlit dashboards.
 
- 
+---
 
-Project Objectives 
+## 🎯 Project Objectives
 
-Build a scalable ETL pipeline using Python 
+- Build a scalable ETL pipeline using Python
+- Implement incremental data loading using watermarking
+- Design a Star Schema data warehouse
+- Detect suspicious transactions using rule-based fraud scoring
+- Orchestrate workflows with Apache Airflow
+- Send automated fraud alert notifications
+- Visualize fraud trends and KPIs using Streamlit
 
-Implement incremental data loading using watermarking 
+---
 
-Design a Star Schema data warehouse 
+## 🏗️ Architecture
 
-Detect suspicious transactions using rule-based fraud scoring 
+```text
+┌──────────────────────────────┐
+│      PostgreSQL (OLTP)       │
+│                              │
+│  Raw Banking Transactions    │
+└───────────────┬──────────────┘
+                │
+                │ Extract
+                ▼
 
-Orchestrate workflows with Apache Airflow 
+┌──────────────────────────────┐
+│      Python ETL Pipeline     │
+└───────────────┬──────────────┘
+                │
+                ▼
 
-Send automated fraud alert notifications 
-
-Visualize fraud trends and KPIs using Streamlit 
+┌──────────────────────────────┐
+│       Transformation Layer   │
+│                              │
+│ ✓ Data Validation            │
+│ ✓ Data Quality Checks        │
+│ ✓ Star Schema Mapping        │
+│ ✓ Fraud Rule Evaluation      │
+│ ✓ Fraud Score Calculation    │
+│ ✓ Fraud Flag Creation        │
+└───────────────┬──────────────┘
+     
